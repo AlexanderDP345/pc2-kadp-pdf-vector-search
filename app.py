@@ -8,13 +8,11 @@ import os
 import cohere
 import time
 
-# =======================
-# CONFIGURACIÃ“N
-# =======================
 
-GOOGLE_API_KEY = st.secrets["app"]["GOOGLE_API_KEY"]
-MONGODB_URI = st.secrets["app"]["MONGODB_URI"]
-COHERE_API_KEY = st.secrets["app"]["COHERE_API_KEY"]
+
+GOOGLE_API_KEY= st.secrets["app"]["GOOGLE_API_KEY"]
+MONGODB_URI= st.secrets["app"]["MONGODB_URI"]
+COHERE_API_KEY= st.secrets["app"]["COHERE_API_KEY"]
 
 B2_READ_KEY_ID = st.secrets["b2"]["B2_READ_KEY_ID"]
 B2_READ_APPLICATION_KEY = st.secrets["b2"]["B2_READ_APPLICATION_KEY"]
