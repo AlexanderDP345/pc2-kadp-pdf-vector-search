@@ -211,7 +211,7 @@ Responde en espaÃ±ol, de forma clara.
 # INTERFAZ STREAMLIT
 # =======================
 
-st.set_page_config(page_title="ChatBot", page_icon=""tiktikti"")
+st.set_page_config(page_title="ChatBot", page_icon="f")
 
 st.title("ðŸ“š Chat con PDFs almacenados en Backblaze + MongoDB + Gemini + Cohere: "+USER)
 
